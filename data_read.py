@@ -1,3 +1,5 @@
+# This is used to initially read the RFID tag
+
 from mfrc522 import MFRC522
 import utime
  
