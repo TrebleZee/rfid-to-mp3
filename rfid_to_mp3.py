@@ -45,7 +45,7 @@ def DetectAndPlay(sleepTime):  # Set a time(s) so sleep after
         if idleTime >= sleepTime:
             break
         LED.value(0)
-        (stat, tag_type) = rfid.request(rfid.REQIDL)	#
+        (stat, tag_type) = rfid.request(rfid.REQIDL)	
         
         if stat == rfid.OK:
             (stat, uid) = rfid.SelectTagSN()
