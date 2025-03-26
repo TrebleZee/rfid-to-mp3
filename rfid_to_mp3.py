@@ -1,3 +1,8 @@
+# Created by TrebleZee
+# An implementation of the DFPlayerMini library by Stewart Watkiss @PenguinTutor
+# And the MFRC522 library by Daniel Perron @danjperron
+# This example code gives you the abillity to play an audio based on the RFID detected
+
 from mfrc522 import MFRC522
 from machine import Pin
 from dfplayermini import DFPlayerMini as DFPlayer
